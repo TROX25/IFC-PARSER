@@ -63,6 +63,19 @@ def main():
                                     plik.write(f"   - {property_name}: -\n")
                         else:
                             plik.write("Brak Danych !!!\n")
+                            
+            plik.write("\nInterpretacje wybranych Psetów:\n")
+            for pset_name in sorted(psety_noDupes):
+                if pset_name == "Pset_SiteCommon":
+                    plik.write(f"{pset_name} -> zestaw właściwości zawierający ogólne informacje dotyczące terenu (Site), takie jak wysokość nad poziomem morza, nachylenie gruntu czy strefa klimatyczna.\n")
+                elif pset_name == "Pset_EnvironmentalImpactIndicators":
+                    plik.write(f"{pset_name} -> zestaw właściwości służący do określania wskaźników oddziaływania obiektu na środowisko, takich jak emisja CO₂, zużycie energii lub wody.\n")
+                elif pset_name == "Pset_BuildingElementProxyCommon":
+                    plik.write(f"{pset_name} -> zestaw właściwości przeznaczony dla elementów budowlanych bez określonego typu, zawierający ogólne dane takie jak status, komentarze czy identyfikator elementu.\n")
+                       
+            
+                            
+                            
                     
             # z Seta psety_noDupes dodaje alfabetycznie do pliku txt  
             
@@ -72,11 +85,5 @@ def main():
                 
                 
                         
-
-                    
-
-
-# Parse p-setów (Pset -> properties -> )
-
 if __name__ == "__main__":
     main()
