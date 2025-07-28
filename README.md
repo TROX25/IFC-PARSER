@@ -53,6 +53,7 @@ Narzędzie do parsowania i analizy zestawów właściwości (Property Sets) w pl
 - Otwórz folder `INSTALATORY` i uruchom odpowiedni plik `.exe` (np. `ifc_valid_checker.exe` lub `propertyset_parser.exe`).
 
 <img width="265" height="57" alt="Zrzut ekranu 2025-07-28 030322" src="https://github.com/user-attachments/assets/7c254fc3-9196-448c-9e39-607ffa8bc38c" />
+
 *Przykładowy widok uruchomionego pliku exe.*
 
 ---
@@ -62,7 +63,8 @@ Narzędzie do parsowania i analizy zestawów właściwości (Property Sets) w pl
 - Po uruchomieniu pojawi się okno dialogowe.
 - Wybierz plik IFC (`.ifc` lub `.ifczip`) do analizy.
 
-![Wybór pliku IFC](./docs/images/step2_select_ifc.png)  
+<img width="844" height="207" alt="Zrzut ekranu 2025-07-28 030348" src="https://github.com/user-attachments/assets/a396ceb5-5e1e-4d83-bae4-0060a45ad9dc" />
+
 *Okno wyboru pliku IFC.*
 
 ---
@@ -71,7 +73,8 @@ Narzędzie do parsowania i analizy zestawów właściwości (Property Sets) w pl
 
 - Po zakończeniu analizy program poprosi o wskazanie miejsca i nazwy pliku `.txt`, gdzie zostanie zapisany wynik analizy.
 
-![Wybór miejsca zapisu](./docs/images/step3_save_txt.png)  
+<img width="882" height="258" alt="Zrzut ekranu 2025-07-28 030411" src="https://github.com/user-attachments/assets/e2a94404-bb0c-4b2f-8ee0-efc80b682685" />
+
 *Okno wyboru lokalizacji zapisu wyników.*
 
 ---
@@ -81,7 +84,8 @@ Narzędzie do parsowania i analizy zestawów właściwości (Property Sets) w pl
 - Po zapisaniu pliku tekstowego, znajdziesz tam szczegółowe dane z analizy.
 - Przykładowy wynik może zawierać listę Property Sets, błędy walidacji lub inne wybrane informacje.
 
-![Przykładowy rezultat](./docs/images/step4_result.png)  
+<img width="751" height="556" alt="Zrzut ekranu 2025-07-28 030559" src="https://github.com/user-attachments/assets/239cfa13-53df-4850-94ce-59f6c6b4e698" />
+
 *Przykład wygenerowanego pliku tekstowego z analizą.*
 
 ---
