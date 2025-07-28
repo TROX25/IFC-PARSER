@@ -1,0 +1,62 @@
+Wersja IFC: IFC4
+Wersja Revit: Autodesk Revit 2026 
+
+Wszyskie Psety:
+Pset_SiteCommon
+   - Reference: Project Information
+Pset_BuildingElementProxyCommon
+   - Reference: Model Lines
+   - IsExternal: False
+Pset_EnvironmentalImpactIndicators
+   - Reference: Model Lines
+Pset_CommunicationsApplianceTypeCommon
+   - Reference: antenna_zaczep
+Pset_SkySnap
+   - StatusPL: no data
+   - StatusENG: no data
+   - NamePL: antena
+   - NameENG: antenna
+   - AntennaPL: sektorowa
+   - AntennaENG: sectoral
+   - AntennaType: F-B-1
+   - AssetIdentifier: no data
+   - DatabaseLink: no data
+   - JumperLength: 0.0
+   - FiberCableLength: 0.0
+   - Direction: no data
+   - Gross Weight: 35.5
+   - InstalationDate: no data
+   - InstalationStatus: no data
+   - Manufacturer: no data
+   - ModelNumber: no data
+   - NominalAzimuth: 0.0
+   - RealAzimuth: 0.0
+   - NominalDepthAntenna: 200.0
+   - RealDepthAntenna: 0.0
+   - NominalHeightAntenna: 2599.0
+   - RealHeightAntenna: 0.0
+   - NominalWidthAntenna: 498.0
+   - RealWidthAntenna: 0.0
+   - NominalTiltAntenna: 0.0
+   - Operator: no data
+   - PolarizationMode: no data
+   - Sector: no data
+   - SignalPath: 700/800/900
+1800/2100/2600 FDD
+   - Smax: 1.61
+   - RealInstalationHeight: 0.0
+   - NominalInstalationHeight: 0.0
+Pset_ManufacturerTypeInformation
+   - Manufacturer: no data
+Pset_BuildingStoreyCommon
+   - Reference: 8mm Head
+   - AboveGround: UNKNOWN
+Pset_BuildingCommon
+   - Reference: Project Information
+   - NumberOfStoreys: 2
+   - IsLandmarked: UNKNOWN
+
+Interpretacje wybranych Psetów:
+Pset_BuildingElementProxyCommon -> zestaw właściwości przeznaczony dla elementów budowlanych bez określonego typu, zawierający ogólne dane takie jak status, komentarze czy identyfikator elementu.
+Pset_EnvironmentalImpactIndicators -> zestaw właściwości służący do określania wskaźników oddziaływania obiektu na środowisko, takich jak emisja CO₂, zużycie energii lub wody.
+Pset_SiteCommon -> zestaw właściwości zawierający ogólne informacje dotyczące terenu (Site), takie jak wysokość nad poziomem morza, nachylenie gruntu czy strefa klimatyczna.
