@@ -41,7 +41,8 @@ Pset_SkySnap
    - Operator: no data
    - PolarizationMode: no data
    - Sector: no data
-   - SignalPath: 700/800/900
+   - SignalPath: 700/800/900
+
 1800/2100/2600 FDD
    - Smax: 1.61
    - RealInstalationHeight: 0.0
