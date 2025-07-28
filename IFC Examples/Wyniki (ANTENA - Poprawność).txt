@@ -1,0 +1,3 @@
+Element IfcProject: obecny
+Element IfcSite: obecny
+Plik ifc jest kompletny
