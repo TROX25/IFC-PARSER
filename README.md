@@ -81,7 +81,6 @@ Narzędzie do parsowania i analizy zestawów właściwości (Property Sets) w pl
 
 ### 4. Rezultat
 
-- Po zapisaniu pliku tekstowego, znajdziesz tam szczegółowe dane z analizy.
 - Przykładowy wynik może zawierać listę Property Sets, błędy walidacji lub inne wybrane informacje.
 
 <img width="751" height="556" alt="Zrzut ekranu 2025-07-28 030559" src="https://github.com/user-attachments/assets/239cfa13-53df-4850-94ce-59f6c6b4e698" />
@@ -90,9 +89,7 @@ Narzędzie do parsowania i analizy zestawów właściwości (Property Sets) w pl
 
 ---
 
-## Instalacja (wersja dla Pythona)
-
-Jeśli chcesz uruchomić programy z kodu źródłowego:
+## Instalacja 
 
 1. Sklonuj repozytorium:
    ```bash
