@@ -24,8 +24,9 @@ Narzędzie służy do sprawdzania poprawności plików IFC oraz ich podstawowej 
 - Biblioteka [IfcOpenShell](https://github.com/IfcOpenShell/IfcOpenShell)
 - Tkinter (wbudowany w Pythona)
 
-### Uruchomienie
-- W folderze INSTALATORY znajduje się link do Google drive, gdzie znajdują się pliki .exe dla obydwu programów oraz przykładowe wyniki analiz
+### Pliki
+- W folderze INSTALATORY znajduje się link do Google drive, gdzie znajdują się pliki .exe dla obydwu programów
+- W folderze IFC Examples znajdują się przykładowe pliki ifc wraz z wynikami analiz
 
 ### Uruchomienie
 
